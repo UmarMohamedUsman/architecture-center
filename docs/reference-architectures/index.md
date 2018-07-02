@@ -12,10 +12,89 @@ ms.topic: landing-page
 
 Our reference architectures are arranged by scenario, with related architectures grouped together. Each architecture includes recommended practices, along with considerations for scalability, availability, manageability, and security. Most also include a deployable solution.
 
+
+## Big data solutions
+
+## VM workloads
+
+<ul  class="panelContent cardsE">
+<li style="display: flex; flex-direction: column;">
+    <a href="./n-tier/n-tier-sql-server.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
+            <div class="cardPadding" style="display: flex;">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="./n-tier/images/Windows.svg" height="140px" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>N-tier application with SQL Server</h3>
+                        <p>Virtual machines and a virtual network configured for an N-tier application using SQL Server on Windows.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+</li>
+
+<!-- Multi-region Windows -->
+<li style="display: flex; flex-direction: column;">
+    <a href="./n-tier/multi-region-sql-server.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
+            <div class="cardPadding" style="display: flex;">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="./n-tier/images/Windows.svg" height="140px" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Multi-region N-tier application with SQL Server</h3>
+                        <p>N-tier application in two regions for high availability, using SQL Server Always On Availability Groups.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+</li>
+
+<!-- N-tier Linux -->
+<li style="display: flex; flex-direction: column;">
+    <a href="./n-tier/n-tier-cassandra.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
+            <div class="cardPadding" style="display: flex;">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="./n-tier/images/LinuxPenguin.svg" height="140px" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>N-tier application with Cassandra</h3>
+                        <p>Virtual machines and a virtual network configured for an N-tier application using Apache Cassandra on Linux.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+</li>
+</ul>
+
+
+## Virtual network design
+
+
+
+
+## Web applications
+
+
+<!-- 
 <section class="series">
     <ul class="panelContent">
 
-<!-- N-tier -->
+
 <li style="display: flex; flex-direction: column;">
     <a href="./n-tier/index.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
         <div class="cardSize" style="flex: 1 0 auto; display: flex;">
@@ -37,7 +116,6 @@ Our reference architectures are arranged by scenario, with related architectures
     </a>
 </li>
 
-<!-- Hybrid network -->
 <li style="display: flex; flex-direction: column;">
     <a href="./hybrid-networking/index.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
         <div class="cardSize" style="flex: 1 0 auto; display: flex;">
@@ -58,7 +136,6 @@ Our reference architectures are arranged by scenario, with related architectures
         </div>
     </a>
 </li>
-    <!-- Network DMZ -->
 <li style="display: flex; flex-direction: column;">
     <a href="./dmz/index.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
         <div class="cardSize" style="flex: 1 0 auto; display: flex;">
@@ -78,7 +155,6 @@ Our reference architectures are arranged by scenario, with related architectures
         </div>
     </a>
 </li>
-    <!-- Identity management -->
 <li style="display: flex; flex-direction: column;">
     <a href="./identity/index.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
         <div class="cardSize" style="flex: 1 0 auto; display: flex;">
@@ -98,7 +174,6 @@ Our reference architectures are arranged by scenario, with related architectures
         </div>
     </a>
 </li>
-    <!-- App Service web application -->
 <li style="display: flex; flex-direction: column;">
     <a href="./app-service-web-app/index.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
         <div class="cardSize" style="flex: 1 0 auto; display: flex;">
@@ -122,7 +197,6 @@ Our reference architectures are arranged by scenario, with related architectures
 </section>
 
 <ul class="panelContent cardsI">
-    <!-- Jenkins build server -->
 <li style="display: flex; flex-direction: column;">
     <a href="./jenkins/index.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
         <div class="cardSize" style="flex: 1 0 auto; display: flex;">
@@ -142,7 +216,6 @@ Our reference architectures are arranged by scenario, with related architectures
         </div>
     </a>
 </li>
-    <!-- SharePoint Server 2016 farm -->
 <li style="display: flex; flex-direction: column;">
     <a href="./sharepoint/index.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
         <div class="cardSize" style="flex: 1 0 auto; display: flex;">
@@ -162,7 +235,6 @@ Our reference architectures are arranged by scenario, with related architectures
         </div>
     </a>
 </li>
-    <!-- SAP NetWeaver and SAP HANA -->
 <li style="display: flex; flex-direction: column;">
     <a href="./sap/index.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
         <div class="cardSize" style="flex: 1 0 auto; display: flex;">
@@ -183,3 +255,4 @@ Our reference architectures are arranged by scenario, with related architectures
     </a>
 </li>
 </ul>
+-->
