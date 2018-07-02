@@ -218,15 +218,92 @@ Our reference architectures are arranged by scenario, with related architectures
         </div>
     </a>
 </li>
-
-
 </ul>
 
 
-## Virtual network design
+## Virtual networks
 
-
-
+<ul  class="panelContent cardsF">
+<li style="display: flex; flex-direction: column;">
+    <a href="./hybrid-networking/vpn.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
+            <div class="cardPadding" style="display: flex;">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="./_images/vpn.svg" height="140px" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Hybrid network using a virtual private network (VPN)</h3>
+                        <p>Connect an on-premises network to an Azure virtual network.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+</li>
+<!-- ExpressRoute -->
+<li style="display: flex; flex-direction: column;">
+    <a href="./hybrid-networking/expressroute-vpn-failover.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
+            <div class="cardPadding" style="display: flex;">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="./_images/expressroute.svg" height="140px" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Hybrid network using ExpressRoute with VPN failover</h3>
+                        <p>Connect an on-premises network to an Azure virtual network using ExpressRoute, with VPN as a failover connection.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+</li>
+<!-- Hybrid DMZ -->
+<li style="display: flex; flex-direction: column;">
+    <a href="./dmz/secure-vnet-hybrid.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
+            <div class="cardPadding" style="display: flex;">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="./_images/vnet.svg" height="140px" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>DMZ between Azure and on-premises</h3>
+                        <p>Use network virtual appliances to create a secure hybrid network.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+</li>
+<!-- Internet DMZ -->
+<li style="display: flex; flex-direction: column;">
+    <a href="./dmz/secure-vnet-dmz.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
+            <div class="cardPadding" style="display: flex;">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="./_images/vnet.svg" height="140px" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>DMZ between Azure and the Internet</h3>
+                        <p>Use network virtual appliances to create a secure network that accepts Internet traffic.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+</li>
+</ul>
 
 ## Web applications
 
