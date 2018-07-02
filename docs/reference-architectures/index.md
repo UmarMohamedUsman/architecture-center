@@ -4,9 +4,6 @@ description: Reference architectures, blueprints, and prescriptive implementatio
 layout: LandingPage
 ms.topic: landing-page
 ---
-<!-- This file is generated! -->
-<!-- See the templates in ./build/reference-architectures  -->
-<!-- See data in index.json -->
 
 # Azure Reference Architectures
 
@@ -15,9 +12,51 @@ Our reference architectures are arranged by scenario, with related architectures
 
 ## Big data solutions
 
+<ul  class="panelContent cardsF">
+<!-- SQL Data Warehouse -->
+<li style="display: flex; flex-direction: column;">
+    <a href="./data/enterprise-bi-sqldw.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
+            <div class="cardPadding" style="display: flex;">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="./data/images/data-guide.svg" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Enterprise BI with SQL Data Warehouse</h3>
+                        <p>Implements an ELT (extract-load-transform) pipeline that moves data from an on-premises SQL Server database into SQL Data Warehouse and transforms the data for analysis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+</li>
+<li style="display: flex; flex-direction: column;">
+    <a href="./data/enterprise-bi-adf.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
+            <div class="cardPadding" style="display: flex;">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="./data/images/data-guide.svg" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Automated enterprise BI with SQL Data Warehouse and Azure Data Factory</h3>
+                        <p>Implements an ELT (extract-load-transform) pipeline, using Azure Data Factory to automate the pipeline.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+</li>
+</ul>
+
 ## VM workloads
 
-<ul  class="panelContent cardsE">
+<ul  class="panelContent cardsF">
 <li style="display: flex; flex-direction: column;">
     <a href="./n-tier/n-tier-sql-server.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
         <div class="cardSize" style="flex: 1 0 auto; display: flex;">
@@ -79,6 +118,108 @@ Our reference architectures are arranged by scenario, with related architectures
         </div>
     </a>
 </li>
+
+<!-- Jenkins -->
+<li style="display: flex; flex-direction: column;">
+    <a href="./jenkins/index.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
+            <div class="cardPadding" style="display: flex;">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="./jenkins/images/logo.svg" height="140px" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Jenkins build server</h3>
+                        <p>Scalable, enterprise-grade Jenkins server on Azure.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+</li>
+<!-- SharePoint -->
+<li style="display: flex; flex-direction: column;">
+    <a href="./sharepoint/index.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
+            <div class="cardPadding" style="display: flex;">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="./sharepoint/images/sharepoint.svg" height="140px" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>SharePoint Server 2016 farm</h3>
+                        <p>Highly available SharePoint Server 2016 farm on Azure with SQL Server Always On Availability Groups.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+</li>
+
+<!-- SAP -->
+<li style="display: flex; flex-direction: column;">
+    <a href="./sap/sap-netweaver.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
+            <div class="cardPadding" style="display: flex;">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="./sap/images/sap.svg" height="140px" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>SAP NetWeaver for AnyDB</h3>
+                        <p>SAP NetWeaver on Windows for AnyDB, in a high availability environment that supports disaster recovery. AnyDB is the SAP term for any supported DBMS besides SAP HANA.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+</li>
+<li style="display: flex; flex-direction: column;">
+    <a href="./sap/sap-s4hana.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
+            <div class="cardPadding" style="display: flex;">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="./sap/images/sap.svg" height="140px" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>SAP S/4HANA</h3>
+                        <p>SAP S/4HANA on Linux, in a high availability environment that supports disaster recovery.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+</li>
+<li style="display: flex; flex-direction: column;">
+    <a href="./sap/hana-large-instances.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
+            <div class="cardPadding" style="display: flex;">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="./sap/images/sap.svg" height="140px" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>SAP HANA on Azure Large Instances</h3>
+                        <p>HANA Large Instances are deployed on physical servers in Azure regions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+</li>
+
+
 </ul>
 
 
@@ -197,44 +338,6 @@ Our reference architectures are arranged by scenario, with related architectures
 </section>
 
 <ul class="panelContent cardsI">
-<li style="display: flex; flex-direction: column;">
-    <a href="./jenkins/index.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
-        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
-            <div class="cardPadding" style="display: flex;">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="./jenkins/images/logo.svg" height="140px" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Jenkins build server</h3>
-                        <p>Deploy and operate a scalable, enterprise-grade Jenkins server on Azure.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </a>
-</li>
-<li style="display: flex; flex-direction: column;">
-    <a href="./sharepoint/index.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
-        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
-            <div class="cardPadding" style="display: flex;">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="./sharepoint/images/sharepoint.svg" height="140px" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>SharePoint Server 2016 farm</h3>
-                        <p>Deploy and run a high availability SharePoint Server 2016 farm on Azure with SQL Server Always On Availability Groups.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </a>
-</li>
 <li style="display: flex; flex-direction: column;">
     <a href="./sap/index.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
         <div class="cardSize" style="flex: 1 0 auto; display: flex;">
