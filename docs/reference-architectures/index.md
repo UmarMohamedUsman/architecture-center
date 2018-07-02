@@ -245,6 +245,26 @@ Our reference architectures are arranged by scenario, with related architectures
 </li>
 <!-- ExpressRoute -->
 <li style="display: flex; flex-direction: column;">
+    <a href="./hybrid-networking/expressroute.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
+            <div class="cardPadding" style="display: flex;">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="./_images/expressroute.svg" height="140px" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Hybrid network using ExpressRoute</h3>
+                        <p>Connect an on-premises network to an Azure virtual network. ExpressRoute connections use a private, dedicated connection.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+</li>
+<!-- ExpressRoute + VPN -->
+<li style="display: flex; flex-direction: column;">
     <a href="./hybrid-networking/expressroute-vpn-failover.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
         <div class="cardSize" style="flex: 1 0 auto; display: flex;">
             <div class="cardPadding" style="display: flex;">
@@ -256,7 +276,7 @@ Our reference architectures are arranged by scenario, with related architectures
                     </div>
                     <div class="cardText">
                         <h3>Hybrid network using ExpressRoute with VPN failover</h3>
-                        <p>Connect an on-premises network to an Azure virtual network using ExpressRoute, with VPN as a failover connection.</p>
+                        <p>Use a VPN as a failover connection in case the ExpressRoute circuit loses connectivity.</p>
                     </div>
                 </div>
             </div>
@@ -305,129 +325,83 @@ Our reference architectures are arranged by scenario, with related architectures
 </li>
 </ul>
 
-## Web applications
+## Extend on-premises identities to Azure
 
-
-<!-- 
-<section class="series">
-    <ul class="panelContent">
-
-
+<ul class="panelContent cardsF">
+<!-- Azure AD -->
 <li style="display: flex; flex-direction: column;">
-    <a href="./n-tier/index.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+    <a href="./identity/azure-ad.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
         <div class="cardSize" style="flex: 1 0 auto; display: flex;">
             <div class="cardPadding" style="display: flex;">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="./n-tier/images/n-tier-sql-server.svg" />
+                            <img src="./_images/azure-active-directory.svg" height="140px" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>N-tier application</h3>
-                        <p>Deploy an N-tier application to Azure, for Windows or Linux.</p>
-                        <p>Configurations are shown for SQL Server and Apache Cassandra. For high availability, deploy an active-passive configuration in two regions.</p>
+                        <h3>Integrate with Azure Active Directory</h3>
+                        <p>Integrate on-premises Active Directory domains with Azure Active Directory.</p>
                     </div>
                 </div>
             </div>
         </div>
     </a>
 </li>
-
+<!-- AD DS -->
 <li style="display: flex; flex-direction: column;">
-    <a href="./hybrid-networking/index.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+    <a href="./identity/adds-extend-domain.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
         <div class="cardSize" style="flex: 1 0 auto; display: flex;">
             <div class="cardPadding" style="display: flex;">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="./hybrid-networking/images/vpn.svg" height="140px" />
+                            <img src="./_images/active-directory-vm.svg" height="140px" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Hybrid network</h3>
-                        <p>This series shows options for creating a network connection between an on-premises network and Azure.</p>
-                        <p>Configurations include site-to-site VPN or Azure ExpressRoute for a private, dedicated connection.</p>
+                        <h3>Extend an Active Directory domain to Azure</h3>
+                        <p>Deploy Active Directory Domain Services (AD DS) in Azure to extend an on-premises AD environment.</p>
                     </div>
                 </div>
             </div>
         </div>
     </a>
 </li>
+<!-- AD DS Forest -->
 <li style="display: flex; flex-direction: column;">
-    <a href="./dmz/index.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+    <a href="./identity/adds-forest.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
         <div class="cardSize" style="flex: 1 0 auto; display: flex;">
             <div class="cardPadding" style="display: flex;">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="./dmz/images/secure-vnet-dmz.svg" height="140px" />
+                            <img src="./_images/active-directory-vm.svg" height="140px" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Network DMZ</h3>
-                        <p>This series shows how to create a network DMZ to protect the boundary between an Azure virtual network and an on-premises network or the Internet.</p>
+                        <h3>Create an AD DS forest in Azure</h3>
+                        <p>Create a separate Active Directory domain in Azure that is trusted by domains in your on-premises AD forest.</p>
                     </div>
                 </div>
             </div>
         </div>
     </a>
 </li>
+<!-- AD FS -->
 <li style="display: flex; flex-direction: column;">
-    <a href="./identity/index.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+    <a href="./identity/adfs.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
         <div class="cardSize" style="flex: 1 0 auto; display: flex;">
             <div class="cardPadding" style="display: flex;">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="./identity/images/adds-extend-domain.svg" height="140px" />
+                            <img src="./_images/active-directory-vm.svg" height="140px" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Identity management</h3>
-                        <p>This series show options for integrating your on-premises Active Directory (AD) environment with an Azure network.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </a>
-</li>
-<li style="display: flex; flex-direction: column;">
-    <a href="./app-service-web-app/index.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
-        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
-            <div class="cardPadding" style="display: flex;">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="./app-service-web-app/images/scalable-web-app.svg" height="140px" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>App Service web application</h3>
-                        <p>This series shows best practices for web applications that use Azure App Service.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </a>
-</li>
-    </ul>
-</section>
-
-<ul class="panelContent cardsI">
-<li style="display: flex; flex-direction: column;">
-    <a href="./sap/index.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
-        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
-            <div class="cardPadding" style="display: flex;">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="./sap/images/sap.svg" height="140px" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Run SAP on Azure</h3>
-                        <p>Deploy and run SAP in a high availability environment on Azure.</p>
+                        <h3>Extend Active Directory Federation Services (AD FS) to Azure</h3>
+                        <p>Extend your on-premises network to Azure, using AD FS for federated authentication and authorization.</p>
                     </div>
                 </div>
             </div>
@@ -435,4 +409,6 @@ Our reference architectures are arranged by scenario, with related architectures
     </a>
 </li>
 </ul>
--->
+
+## Web applications
+
