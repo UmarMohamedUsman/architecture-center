@@ -172,7 +172,7 @@ Our reference architectures are arranged by scenario, with related architectures
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>SAP NetWeaver for AnyDB</h3>
+                        <h3>SAP NetWeaver</h3>
                         <p>SAP NetWeaver on Windows, in a high availability environment that supports disaster recovery.</p>
                     </div>
                 </div>
@@ -276,7 +276,7 @@ Our reference architectures are arranged by scenario, with related architectures
                     </div>
                     <div class="cardText">
                         <h3>Hybrid network using ExpressRoute with VPN failover</h3>
-                        <p>Use a VPN as a failover connection in case the ExpressRoute circuit loses connectivity.</p>
+                        <p>Use VPN as a failover connection in case the ExpressRoute circuit loses connectivity.</p>
                     </div>
                 </div>
             </div>
@@ -361,7 +361,7 @@ Our reference architectures are arranged by scenario, with related architectures
                     </div>
                     <div class="cardText">
                         <h3>Extend an on-premises Active Directory domain to Azure</h3>
-                        <p>Deploy Active Directory Domain Services (AD DS) in Azure.</p>
+                        <p>Deploy Active Directory Domain Services (AD DS) in Azure to extend your on-premises domain.</p>
                     </div>
                 </div>
             </div>
@@ -425,13 +425,14 @@ Our reference architectures are arranged by scenario, with related architectures
                     </div>
                     <div class="cardText">
                         <h3>Basic web application</h3>
-                        <p>a web application that uses Azure App Service and Azure SQL Database.</p>
+                        <p>Web application that uses Azure App Service and Azure SQL Database.</p>
                     </div>
                 </div>
             </div>
         </div>
     </a>
 </li>
+<ul  class="panelContent cardsF">
 <li style="display: flex; flex-direction: column;">
     <a href="./app-service-web-app/scalable-web-app.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
         <div class="cardSize" style="flex: 1 0 auto; display: flex;">

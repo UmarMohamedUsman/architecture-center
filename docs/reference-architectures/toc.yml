@@ -19,10 +19,9 @@
     href: data/enterprise-bi-adf.md
 
 - name: Hybrid networks
-  href: hybrid-networking/index.md
   items:
-  - name: Which should I choose?
-    href: hybrid-networking/considerations.md
+  - name: Overview
+    href: hybrid-networking/index.md
   - name: VPN
     href: hybrid-networking/vpn.md
   - name: ExpressRoute
