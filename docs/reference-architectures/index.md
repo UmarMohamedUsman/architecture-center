@@ -26,7 +26,7 @@ Our reference architectures are arranged by scenario, with related architectures
                     </div>
                     <div class="cardText">
                         <h3>Enterprise BI with SQL Data Warehouse</h3>
-                        <p>Implements an ELT (extract-load-transform) pipeline that moves data from an on-premises database into SQL Data Warehouse.</p>
+                        <p>Implements an ELT pipeline that moves data from an on-premises database into SQL Data Warehouse.</p>
                     </div>
                 </div>
             </div>
@@ -45,7 +45,7 @@ Our reference architectures are arranged by scenario, with related architectures
                     </div>
                     <div class="cardText">
                         <h3>Automated enterprise BI with SQL Data Warehouse and Azure Data Factory</h3>
-                        <p>Automates an ELT (extract-load-transform) pipeline by using Azure Data Factory.</p>
+                        <p>Automates an ELT pipeline by using Azure Data Factory.</p>
                     </div>
                 </div>
             </div>
@@ -173,7 +173,7 @@ Our reference architectures are arranged by scenario, with related architectures
                     </div>
                     <div class="cardText">
                         <h3>SAP NetWeaver for AnyDB</h3>
-                        <p>SAP NetWeaver on Windows for AnyDB, in a high availability environment that supports disaster recovery.</p>
+                        <p>SAP NetWeaver on Windows, in a high availability environment that supports disaster recovery.</p>
                     </div>
                 </div>
             </div>
