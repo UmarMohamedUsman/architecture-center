@@ -26,7 +26,7 @@ Our reference architectures are arranged by scenario, with related architectures
                     </div>
                     <div class="cardText">
                         <h3>Enterprise BI with SQL Data Warehouse</h3>
-                        <p>Implements an ELT pipeline that moves data from an on-premises database into SQL Data Warehouse.</p>
+                        <p>ELT (extract-load-transform) pipeline to move data from an on-premises database into SQL Data Warehouse.</p>
                     </div>
                 </div>
             </div>
@@ -45,7 +45,7 @@ Our reference architectures are arranged by scenario, with related architectures
                     </div>
                     <div class="cardText">
                         <h3>Automated enterprise BI with SQL Data Warehouse and Azure Data Factory</h3>
-                        <p>Automates an ELT pipeline by using Azure Data Factory.</p>
+                        <p>Automated ELT pipeline for incremental loading from an on-premises database.</p>
                     </div>
                 </div>
             </div>
@@ -256,7 +256,7 @@ Our reference architectures are arranged by scenario, with related architectures
                     </div>
                     <div class="cardText">
                         <h3>Hybrid network using ExpressRoute</h3>
-                        <p>Connect an on-premises network to an Azure virtual network. ExpressRoute connections use a private, dedicated connection.</p>
+                        <p>ExpressRoute connections use a private, dedicated connection.</p>
                     </div>
                 </div>
             </div>
@@ -360,8 +360,8 @@ Our reference architectures are arranged by scenario, with related architectures
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Extend an Active Directory domain to Azure</h3>
-                        <p>Deploy Active Directory Domain Services (AD DS) in Azure to extend an on-premises AD environment.</p>
+                        <h3>Extend an on-premises Active Directory domain to Azure</h3>
+                        <p>Deploy Active Directory Domain Services (AD DS) in Azure.</p>
                     </div>
                 </div>
             </div>
@@ -381,7 +381,7 @@ Our reference architectures are arranged by scenario, with related architectures
                     </div>
                     <div class="cardText">
                         <h3>Create an AD DS forest in Azure</h3>
-                        <p>Create a separate Active Directory domain in Azure that is trusted by domains in your on-premises AD forest.</p>
+                        <p>Create a separate AD domain in Azure that is trusted by your on-premises AD forest.</p>
                     </div>
                 </div>
             </div>
@@ -401,7 +401,7 @@ Our reference architectures are arranged by scenario, with related architectures
                     </div>
                     <div class="cardText">
                         <h3>Extend Active Directory Federation Services (AD FS) to Azure</h3>
-                        <p>Extend your on-premises network to Azure, using AD FS for federated authentication and authorization.</p>
+                        <p>Use AD FS for federated authentication and authorization for components running in Azure.</p>
                     </div>
                 </div>
             </div>
@@ -412,3 +412,62 @@ Our reference architectures are arranged by scenario, with related architectures
 
 ## Web applications
 
+<ul  class="panelContent cardsF">
+<li style="display: flex; flex-direction: column;">
+    <a href="./app-service-web-app/basic-web-app.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
+            <div class="cardPadding" style="display: flex;">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="./_images/app-service.svg" height="140px" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Basic web application</h3>
+                        <p>a web application that uses Azure App Service and Azure SQL Database.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+</li>
+<li style="display: flex; flex-direction: column;">
+    <a href="./app-service-web-app/scalable-web-app.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
+            <div class="cardPadding" style="display: flex;">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="./_images/app-service.svg" height="140px" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Highly scalable web application</h3>
+                        <p>Proven practices for improving scalability in a web application.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+</li>
+<li style="display: flex; flex-direction: column;">
+    <a href="./app-service-web-app/scalable-web-app.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
+            <div class="cardPadding" style="display: flex;">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="./_images/app-service.svg" height="140px" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Highly available web application</h3>
+                        <p>Run an App Service web app in multiple regions to achieve high availability.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+</li>
+</ul>
