@@ -335,7 +335,7 @@
       href: service-fabric/refactor-migrated-app.md
 
 - name: Design Review Framework
-
+  items:
   - name: Design for resiliency
     href: resiliency/index.md
   - name: Failure mode analysis
