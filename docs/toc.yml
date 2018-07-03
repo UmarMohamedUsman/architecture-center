@@ -1,6 +1,3 @@
-- name: Azure Architecture Center
-  href: index.md
-
 - name: Cloud Fundamentals
   items:
   - name: Application architecture guide
@@ -340,18 +337,16 @@
     href: resiliency/index.md
   - name: Failure mode analysis
     href: resiliency/failure-mode-analysis.md
-  - name: Design review checklists
-    items:
-    - name: Availability
-      href: checklist/availability.md
-    - name: DevOps
-      href: checklist/dev-ops.md
-    - name: Resiliency (general)
-      href: checklist/resiliency.md
-    - name: Resiliency (Azure services)
-      href: checklist/resiliency-per-service.md
-    - name: Scalability
-      href: checklist/scalability.md
+  - name: Availability checklist
+    href: checklist/availability.md
+  - name: DevOps checklist
+    href: checklist/dev-ops.md
+  - name: Resiliency checklist
+    href: checklist/resiliency.md
+  - name: Resiliency checklist (Azure services)
+    href: checklist/resiliency-per-service.md
+  - name: Scalability checklist
+    href: checklist/scalability.md
 
 - name: Reference Architectures
   href: reference-architectures/index.md
@@ -529,7 +524,7 @@
           href: cloud-adoption-guide/intermediate-stage/overview.md
         - name: Governance design guide
           href: cloud-adoption-guide/intermediate-stage/governance-design-guide.md
-  - name: Azure Virtual Datacenter
+  - name: Azure virtual datacenter
     href: vdc/index.md
   - name: Azure for AWS Professionals
     items:
