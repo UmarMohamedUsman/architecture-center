@@ -34,10 +34,9 @@
     href: hybrid-networking/shared-services.md
 
 - name: Identity management
-  href: identity/index.md
   items:
-  - name: Which should I choose?
-    href: identity/considerations.md
+  - name: Overview
+    href: identity/index.md
   - name: Integrate on-premises AD with Azure AD
     href: identity/azure-ad.md
   - name: Extend AD DS to Azure
