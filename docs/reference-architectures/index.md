@@ -432,7 +432,6 @@ Our reference architectures are arranged by scenario, with related architectures
         </div>
     </a>
 </li>
-<ul  class="panelContent cardsF">
 <li style="display: flex; flex-direction: column;">
     <a href="./app-service-web-app/scalable-web-app.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
         <div class="cardSize" style="flex: 1 0 auto; display: flex;">

@@ -2,10 +2,10 @@
 title: Choose a solution for connecting an on-premises network to Azure
 description: Compares reference architectures for connecting an on-premises network to Azure.
 author: telmosampaio
-ms.date: 04/06/2017
+ms.date: 07/02/2018
 ---
 
-# Connect on-premises networks to Azure
+# Connect an on-premises network to Azure
 
 This article compares options for connecting an on-premises network to an Azure Virtual Network (VNet). For each option, a more detailed reference architecture is available.
 
