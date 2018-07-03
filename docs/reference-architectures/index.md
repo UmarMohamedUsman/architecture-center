@@ -54,7 +54,7 @@ Our reference architectures are arranged by scenario, with related architectures
 </li>
 </ul>
 
-## VM workloads
+## N-tier applications
 
 <ul  class="panelContent cardsF">
 <li style="display: flex; flex-direction: column;">
@@ -89,7 +89,7 @@ Our reference architectures are arranged by scenario, with related architectures
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Multi-region N-tier application with SQL Server</h3>
+                        <h3>Multi-region N-tier application</h3>
                         <p>N-tier application in two regions for high availability, using SQL Server Always On Availability Groups.</p>
                     </div>
                 </div>
@@ -118,108 +118,7 @@ Our reference architectures are arranged by scenario, with related architectures
         </div>
     </a>
 </li>
-
-<!-- Jenkins -->
-<li style="display: flex; flex-direction: column;">
-    <a href="./jenkins/index.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
-        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
-            <div class="cardPadding" style="display: flex;">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="./jenkins/images/logo.svg" height="140px" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Jenkins build server</h3>
-                        <p>Scalable, enterprise-grade Jenkins server on Azure.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </a>
-</li>
-<!-- SharePoint -->
-<li style="display: flex; flex-direction: column;">
-    <a href="./sharepoint/index.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
-        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
-            <div class="cardPadding" style="display: flex;">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="./sharepoint/images/sharepoint.svg" height="140px" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>SharePoint Server 2016 farm</h3>
-                        <p>Highly available SharePoint Server 2016 farm on Azure with SQL Server Always On Availability Groups.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </a>
-</li>
-
-<!-- SAP -->
-<li style="display: flex; flex-direction: column;">
-    <a href="./sap/sap-netweaver.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
-        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
-            <div class="cardPadding" style="display: flex;">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="./sap/images/sap.svg" height="140px" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>SAP NetWeaver</h3>
-                        <p>SAP NetWeaver on Windows, in a high availability environment that supports disaster recovery.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </a>
-</li>
-<li style="display: flex; flex-direction: column;">
-    <a href="./sap/sap-s4hana.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
-        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
-            <div class="cardPadding" style="display: flex;">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="./sap/images/sap.svg" height="140px" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>SAP S/4HANA</h3>
-                        <p>SAP S/4HANA on Linux, in a high availability environment that supports disaster recovery.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </a>
-</li>
-<li style="display: flex; flex-direction: column;">
-    <a href="./sap/hana-large-instances.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
-        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
-            <div class="cardPadding" style="display: flex;">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="./sap/images/sap.svg" height="140px" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>SAP HANA on Azure Large Instances</h3>
-                        <p>HANA Large Instances are deployed on physical servers in Azure regions.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </a>
-</li>
 </ul>
-
 
 ## Virtual networks
 
@@ -471,3 +370,107 @@ Our reference architectures are arranged by scenario, with related architectures
     </a>
 </li>
 </ul>
+
+## Workloads
+
+<ul  class="panelContent cardsF">
+<!-- Jenkins -->
+<li style="display: flex; flex-direction: column;">
+    <a href="./jenkins/index.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
+            <div class="cardPadding" style="display: flex;">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="./jenkins/images/logo.svg" height="140px" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Jenkins build server</h3>
+                        <p>Scalable, enterprise-grade Jenkins server on Azure.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+</li>
+<!-- SharePoint -->
+<li style="display: flex; flex-direction: column;">
+    <a href="./sharepoint/index.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
+            <div class="cardPadding" style="display: flex;">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="./sharepoint/images/sharepoint.svg" height="140px" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>SharePoint Server 2016 farm</h3>
+                        <p>Highly available SharePoint Server 2016 farm on Azure with SQL Server Always On Availability Groups.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+</li>
+<!-- SAP -->
+<li style="display: flex; flex-direction: column;">
+    <a href="./sap/sap-netweaver.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
+            <div class="cardPadding" style="display: flex;">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="./sap/images/sap.svg" height="140px" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>SAP NetWeaver</h3>
+                        <p>SAP NetWeaver on Windows, in a high availability environment that supports disaster recovery.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+</li>
+<li style="display: flex; flex-direction: column;">
+    <a href="./sap/sap-s4hana.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
+            <div class="cardPadding" style="display: flex;">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="./sap/images/sap.svg" height="140px" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>SAP S/4HANA</h3>
+                        <p>SAP S/4HANA on Linux, in a high availability environment that supports disaster recovery.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+</li>
+<li style="display: flex; flex-direction: column;">
+    <a href="./sap/hana-large-instances.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
+            <div class="cardPadding" style="display: flex;">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="./sap/images/sap.svg" height="140px" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>SAP HANA on Azure Large Instances</h3>
+                        <p>HANA Large Instances are deployed on physical servers in Azure regions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+</li>
+</ul>
+
