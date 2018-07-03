@@ -257,23 +257,23 @@
   - name: Performance antipatterns
     items:
     - name: Overview
-      href: index.md
+      href: antipatterns/index.md
     - name: Busy Database
-      href: busy-database/index.md
+      href: antipatterns/busy-database/index.md
     - name: Busy Front End
-      href: busy-front-end/index.md
+      href: antipatterns/busy-front-end/index.md
     - name: Chatty I/O
-      href: chatty-io/index.md
+      href: antipatterns/chatty-io/index.md
     - name: Extraneous Fetching
-      href: extraneous-fetching/index.md
+      href: antipatterns/extraneous-fetching/index.md
     - name: Improper Instantiation
-      href: improper-instantiation/index.md
+      href: antipatterns/improper-instantiation/index.md
     - name: Monolithic Persistence
-      href: monolithic-persistence/index.md
+      href: antipatterns/monolithic-persistence/index.md
     - name: No Caching
-      href: no-caching/index.md
+      href: antipatterns/no-caching/index.md
     - name: Synchronous I/O
-      href: synchronous-io/index.md
+      href: antipatterns/synchronous-io/index.md
 
   - name: Design microservices on Azure
     items:
@@ -534,6 +534,6 @@
   - name: Azure for AWS Professionals
     items:
     - name: Overview
-      href: aws/index.md
+      href: aws-professional/index.md
     - name: Services comparison
-      href: aws/services.md
+      href: aws-professional/services.md
