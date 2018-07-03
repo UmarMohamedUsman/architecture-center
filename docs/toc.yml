@@ -351,7 +351,7 @@
   - name: Scalability checklist
     href: checklist/scalability.md
 
-- name: Cloud adoption
+- name: Cloud Adoption
   items:
   - name: Azure cloud adoption guide
     items:
@@ -439,7 +439,7 @@
           href: cloud-adoption-guide/intermediate-stage/governance-design-guide.md
   - name: Azure virtual datacenter
     href: vdc/index.md
-  - name: Azure for AWS Professionals
+  - name: Azure for AWS professionals
     items:
     - name: Overview
       href: aws-professional/index.md
