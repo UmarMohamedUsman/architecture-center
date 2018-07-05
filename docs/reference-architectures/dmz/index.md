@@ -1,3 +1,3 @@
 ---
-redirect_url: /azure/architecture/reference-architectures/dmz/secure-vnet-hybrid.md
+redirect_url: /azure/architecture/reference-architectures/dmz/secure-vnet-hybrid
 ---

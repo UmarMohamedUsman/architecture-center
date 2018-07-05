@@ -2,7 +2,6 @@
   href: index.md
 
 - name: App Service web application
-  href: app-service-web-app/index.md
   items:
   - name: Basic web application
     href: app-service-web-app/basic-web-app.md
@@ -47,7 +46,6 @@
     href: identity/adfs.md
 
 - name: N-tier application
-  href: n-tier/index.md
   items:
   - name: N-tier application with SQL Server
     href: n-tier/n-tier-sql-server.md
@@ -61,7 +59,6 @@
     href: n-tier/windows-vm.md
 
 - name: Network DMZ
-  href: dmz/index.md
   items:
   - name: DMZ between Azure and on-premises
     href: dmz/secure-vnet-hybrid.md
@@ -71,7 +68,6 @@
     href: dmz/nva-ha.md
 
 - name: SAP
-  href: sap/index.md
   items:
   - name: SAP NetWeaver for AnyDB
     href: sap/sap-netweaver.md

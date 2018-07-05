@@ -1,3 +1,3 @@
 ---
-redirect_url: /azure/architecture/reference-architectures/sap/sap-netweaver.md
+redirect_url: /azure/architecture/reference-architectures/sap/sap-netweaver
 ---
